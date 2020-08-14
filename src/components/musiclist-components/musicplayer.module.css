@@ -1,0 +1,57 @@
+.heart {
+  display: flex;
+  cursor: pointer;
+  width: 60px;
+  min-width: 60px;
+  height: 70px;
+  background: url("../../images/heart-animation.png");
+  background-repeat: no-repeat;
+  background-size: 2900%;
+  background-position: left;
+}
+.playerwrapper {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 1rem;
+}
+.controlwrapper {
+  max-width: 1000px;
+  width: 100%;
+}
+.loved {
+  background-position: right;
+  animation: animation 0.8s steps(28) 1;
+}
+
+@keyframes animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+.volumewrapper {
+  position: relative;
+  margin-left: 1rem;
+}
+.volumewrapper:hover .volume {
+  visibility: visible;
+}
+.volumewrapper:hover body{
+  position: fixed;
+}
+.volume {
+  position: absolute;
+  visibility: hidden;
+  left: -57px;
+  top: -48px;
+  padding-left: 0.2rem;
+  transform: rotate(-90deg);
+  width: 110px;
+  height: 30px;
+  margin-left: 1rem;
+  border-radius: 5px;
+  background-color:rgba(0,0,0,0.8);
+}

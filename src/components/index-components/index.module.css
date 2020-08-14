@@ -1,0 +1,21 @@
+.genrewrapper {
+    max-width: 1000px;
+    margin:5rem auto;
+}
+.genrewrapper a {
+    color: black;
+}
+.genrewrapper > h2 {
+    text-align: center;
+}
+
+.genrewrapper > div > div {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(148, 148, 148);
+}
+.genrewrapper > div > div:hover {
+    cursor: pointer;
+    border :solid 1px black;
+    box-shadow: 5px 5px 10px rgb(61, 61, 61);
+}
+

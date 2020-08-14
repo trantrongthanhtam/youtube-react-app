@@ -1,0 +1,33 @@
+{
+  "short_name": "UserDatabase",
+  "name": "User Database",
+  "status": "good",
+  "total": 5,
+  "users": [
+    {
+      "userid": "user1",
+      "pass": "123451",
+      "favorite": []
+    },
+    {
+      "userid": "user2",
+      "pass": "123452",
+      "favorite": []
+    },
+    {
+      "userid": "user3",
+      "pass": "123453",
+      "favorite": []
+    },
+    {
+      "userid": "user4",
+      "pass": "123454",
+      "favorite": []
+    },
+    {
+      "userid": "user5",
+      "pass": "123455",
+      "favorite": []
+    }
+  ]
+}
