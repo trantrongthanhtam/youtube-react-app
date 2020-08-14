@@ -65,7 +65,7 @@ class FavoriteList extends React.Component {
               );
             } else return null;
           })}
-          {favorite == false? <div className={cx("w-100 d-flex justify-content-center align-items-center",styles.notify)} ><h3>Bạn chưa có bài hát yêu thích nào</h3></div>:""}
+          {favorite === undefined ? <div className={cx("w-100 d-flex justify-content-center align-items-center",styles.notify)} ><h3>Bạn chưa có bài hát yêu thích nào</h3></div>:""}
         </div>
       </React.Fragment>
     );
