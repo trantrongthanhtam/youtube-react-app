@@ -33,7 +33,7 @@ class ByTheme extends React.Component {
     const { musics, listname, favorite } = this.props;
     return (
       <React.Fragment>
-        <figure className="d-flex justify-content-center mt-5">
+        <figure className="d-flex justify-content-center mt-3">
           <img
             src={require(`../../images/${listname}.jpg`)}
             width="1000px"

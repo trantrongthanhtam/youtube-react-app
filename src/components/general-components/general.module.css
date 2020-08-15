@@ -1,25 +1,25 @@
-.navbarwrapper{
-    box-shadow: 5px 0px 10px grey;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 5;
+.navbarwrapper {
+  box-shadow: 5px 0px 10px grey;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  z-index: 5;
 }
-.navbarwrapper a{
-    color: black;
-    
+
+.navbarwrapper a {
+  color: black;
+  margin: 0.5rem 0rem;
 }
-.navbarwrapper >div a {
-    color: black;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.navbarwrapper > div a {
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-.navbarwrapper >div a:hover {
-    color: rgb(228, 38, 38);
-    
+.navbarwrapper > div a:hover {
+  color: rgb(228, 38, 38);
 }
 
 .vl {
-    border-left: 1px solid black;
+  border-left: 1px solid black;
   height: auto;
 }

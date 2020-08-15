@@ -35,7 +35,7 @@ class ByGenre extends React.Component {
     return (
       <React.Fragment>
         <figure
-          className="d-flex justify-content-center mt-5 w-100 ml-auto mr-auto"
+          className="d-flex justify-content-center mt-3 w-100 ml-auto mr-auto"
           style={{ maxWidth: "1000px" }}
         >
           <img
