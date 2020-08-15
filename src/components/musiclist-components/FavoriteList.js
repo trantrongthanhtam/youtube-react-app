@@ -32,11 +32,11 @@ class FavoriteList extends React.Component {
   }
   render() {
     const { musics, favorite } = this.props;
-    console.log(musics, favorite);
+    console.log(favorite === undefined);
     return (
       <React.Fragment>
         <figure
-          className={cx("d-flex justify-content-center w-100 ml-auto mr-auto",styles.favoriteimg)}
+          className={cx("d-flex justify-content-center w-100 mt-3 ml-auto mr-auto",styles.favoriteimg)}
           style={{ maxWidth: "1000px" }}
         >
           <img
@@ -65,7 +65,7 @@ class FavoriteList extends React.Component {
               );
             } else return null;
           })}
-          {favorite === undefined ? <div className={cx("w-100 d-flex justify-content-center align-items-center",styles.notify)} ><h3>Bạn chưa có bài hát yêu thích nào</h3></div>:""}
+          {(favorite === undefined|| favorite.length === 0) ? <div className={cx("w-100 p-3 text-center d-flex justify-content-center align-items-center",styles.notify)} ><h5>Bạn chưa có bài hát yêu thích nào</h5></div>:""}
         </div>
       </React.Fragment>
     );

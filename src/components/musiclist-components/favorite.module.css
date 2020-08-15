@@ -1,12 +1,14 @@
 .favoriteimg {
-  margin-top: 5rem;
-  box-shadow: 0px 5px 15px grey;
+  box-shadow: 0px 3px 6px grey;
 }
 
 .notify {
-  height: 50vh;
+  height: 30vh;
   width: 80vw;
   max-width: 1000px;
-  background-color: rgb(224, 210, 210);
+  background-color: rgb(224, 224, 224);
   border-radius: 20px;
+}
+.notify h5 {
+  margin: 0;
 }
